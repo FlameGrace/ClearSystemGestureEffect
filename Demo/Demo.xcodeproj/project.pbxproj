@@ -14,7 +14,7 @@
 		046865EF20ECECA0009BCE05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046865ED20ECECA0009BCE05 /* LaunchScreen.storyboard */; };
 		046865F220ECECA0009BCE05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046865F120ECECA0009BCE05 /* main.m */; };
 		046865FC20ECECA0009BCE05 /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046865FB20ECECA0009BCE05 /* DemoUITests.m */; };
-		0468661720EE3CED009BCE05 /* NSObject+ClearSystemGestureEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 0468661520EE3CED009BCE05 /* NSObject+ClearSystemGestureEffect.m */; };
+		0468661B20EE3FFD009BCE05 /* NSObject+ClearSystemGestureEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 0468661A20EE3FFC009BCE05 /* NSObject+ClearSystemGestureEffect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		046865F720ECECA0009BCE05 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		046865FB20ECECA0009BCE05 /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		046865FD20ECECA0009BCE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0468661520EE3CED009BCE05 /* NSObject+ClearSystemGestureEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ClearSystemGestureEffect.m"; path = "../../NSObject+ClearSystemGestureEffect.m"; sourceTree = "<group>"; };
-		0468661620EE3CED009BCE05 /* NSObject+ClearSystemGestureEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+ClearSystemGestureEffect.h"; path = "../../NSObject+ClearSystemGestureEffect.h"; sourceTree = "<group>"; };
+		0468661920EE3FFC009BCE05 /* NSObject+ClearSystemGestureEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ClearSystemGestureEffect.h"; sourceTree = "<group>"; };
+		0468661A20EE3FFC009BCE05 /* NSObject+ClearSystemGestureEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ClearSystemGestureEffect.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,13 +85,12 @@
 		046865E120ECEC8C009BCE05 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				0468661820EE3FFC009BCE05 /* ClearSystemGestureEffect */,
 				046865E220ECEC8C009BCE05 /* AppDelegate.h */,
 				046865E320ECEC8C009BCE05 /* AppDelegate.m */,
 				046865E520ECEC8C009BCE05 /* ViewController.h */,
 				046865E620ECEC8C009BCE05 /* ViewController.m */,
 				046865E820ECEC8C009BCE05 /* Main.storyboard */,
-				0468661620EE3CED009BCE05 /* NSObject+ClearSystemGestureEffect.h */,
-				0468661520EE3CED009BCE05 /* NSObject+ClearSystemGestureEffect.m */,
 				046865EB20ECECA0009BCE05 /* Assets.xcassets */,
 				046865ED20ECECA0009BCE05 /* LaunchScreen.storyboard */,
 				046865F020ECECA0009BCE05 /* Info.plist */,
@@ -107,6 +106,16 @@
 				046865FD20ECECA0009BCE05 /* Info.plist */,
 			);
 			path = DemoUITests;
+			sourceTree = "<group>";
+		};
+		0468661820EE3FFC009BCE05 /* ClearSystemGestureEffect */ = {
+			isa = PBXGroup;
+			children = (
+				0468661920EE3FFC009BCE05 /* NSObject+ClearSystemGestureEffect.h */,
+				0468661A20EE3FFC009BCE05 /* NSObject+ClearSystemGestureEffect.m */,
+			);
+			name = ClearSystemGestureEffect;
+			path = ../../ClearSystemGestureEffect;
 			sourceTree = "<group>";
 		};
 		0E4B66FD67057050A470E7CB /* Frameworks */ = {
@@ -216,8 +225,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0468661720EE3CED009BCE05 /* NSObject+ClearSystemGestureEffect.m in Sources */,
 				046865E720ECEC8C009BCE05 /* ViewController.m in Sources */,
+				0468661B20EE3FFD009BCE05 /* NSObject+ClearSystemGestureEffect.m in Sources */,
 				046865F220ECECA0009BCE05 /* main.m in Sources */,
 				046865E420ECEC8C009BCE05 /* AppDelegate.m in Sources */,
 			);
