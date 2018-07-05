@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "UIView+ClearSystemGestureEffect.h"
+#import "NSObject+ClearSystemGestureEffect.h"
 
 @interface ViewController ()
 
@@ -35,7 +35,7 @@
     /*
      调用下面的语句后不会再出现上述问题。无论怎么点都不会出现
      */
-//    [self.view clearSystemGestureEffect];
+//    [self clearSystemGestureEffect];
 
     
 }

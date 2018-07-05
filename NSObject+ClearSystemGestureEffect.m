@@ -1,12 +1,12 @@
 //
-//  UIView+ClearSystemGestureEffect.m
+//  NSObject+ClearSystemGestureEffect.m
 //
 //  Created by FlameGrace on 2018/5/16.
 //
 
-#import "UIView+ClearSystemGestureEffect.h"
+#import "NSObject+ClearSystemGestureEffect.h"
 
-@implementation UIView (ClearSystemGestureEffect)
+@implementation NSObject (ClearSystemGestureEffect)
 
 - (void)clearSystemGestureEffect
 {
